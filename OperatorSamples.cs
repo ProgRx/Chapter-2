@@ -24,12 +24,11 @@ int counter = 0;
 var evenNumbersInSeries = 
     Enumerable.Range(0, 10).Select(
 	x => 
-	{
+    {
        int result = x + counter;
        counter++;
        return result;
-    }
-	);
+    });
 
 // List the numbers in the series
 
