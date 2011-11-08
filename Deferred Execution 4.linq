@@ -1,14 +1,5 @@
 <Query Kind="Statements">
-  <Reference Relative="..\References\System.Reactive.dll">..\References\System.Reactive.dll</Reference>
-  <Reference Relative="..\References\Microsoft.Reactive.Testing.dll">..\References\Microsoft.Reactive.Testing.dll</Reference>
-  <Namespace>System.Reactive</Namespace>
-  <Namespace>System.Reactive.Linq</Namespace>
-  <Namespace>Microsoft.Reactive.Testing</Namespace>
-</Query>
-
-<Query Kind="Statements">
-  <Reference Relative="..\RxBookLinqpadHelper\ext\System.Reactive.dll">D:\ProgrammingRx\Demo Code For Chapters\RxBookLinqpadHelper\ext\System.Reactive.dll</Reference>
-  <Reference Relative="..\RxBookLinqpadHelper\ext\Microsoft.Reactive.Testing.dll">D:\ProgrammingRx\Demo Code For Chapters\RxBookLinqpadHelper\ext\Microsoft.Reactive.Testing.dll</Reference>
+  <Reference>&lt;ApplicationData&gt;\LINQPad\Samples\Programming Reactive Extensions and LINQ\System.Reactive.dll</Reference>
   <Namespace>System.Reactive</Namespace>
   <Namespace>System.Reactive.Linq</Namespace>
 </Query>
